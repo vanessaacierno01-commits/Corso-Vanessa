@@ -1,0 +1,36 @@
+body {
+font-family: Arial, sans-serif;
+padding: 20px;
+}
+
+/* Titolo con position: relative */
+.titolo {
+position: relative;
+top: 20px; /* verso il basso */
+left: 10px; /* verso destra */
+}
+
+/* Contenitore dell'immagine: deve avere position: relative
+altrimenti l'assoluto si riferisce alla pagina */
+.contenitore-immagine {
+position: relative;
+display: inline-block;
+margin-top: 40px;
+}
+
+/* Immagine */
+.immagine {
+width: 300px;
+height: 200px;
+display: block;
+}
+
+/* Paragrafo con position: absolute */
+.paragrafo {
+position: absolute;
+top: 15px; /* distanza dall'alto del contenitore */
+left: 15px; /* distanza da sinistra del contenitore */
+background-color: rgba(255, 255, 255, 0.7);
+padding: 10px;
+margin: 0; /* il margin non serve su absolute per spostarlo */
+}

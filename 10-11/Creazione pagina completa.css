@@ -1,0 +1,92 @@
+/* Reset semplice */
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+}
+
+/* HEADER */
+.header {
+background: #2a6df4;
+color: white;
+padding: 15px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.nav a {
+color: white;
+text-decoration: none;
+margin-left: 15px;
+padding: 5px 10px;
+border-radius: 4px;
+}
+
+/* Effetto hover */
+.nav a:hover {
+background: white;
+color: #2a6df4;
+}
+
+/* MAIN LAYOUT */
+.main {
+display: flex;
+gap: 20px;
+padding: 20px;
+}
+
+/* CONTENUTO PRINCIPALE */
+.contenuto {
+flex: 3;
+padding: 20px;
+border: 2px solid #cccccc;
+border-radius: 6px;
+}
+
+/* Sidebar */
+.sidebar {
+flex: 1;
+background: #f4f4f4;
+padding: 20px;
+border-left: 3px solid #b3b3b3;
+}
+
+/* Bottone con pseudo-classi */
+.btn {
+padding: 10px 15px;
+border: none;
+background: #2a6df4;
+color: white;
+cursor: pointer;
+border-radius: 6px;
+margin-top: 10px;
+}
+
+.btn:hover {
+background: #1d4eb8;
+}
+
+.btn:active {
+background: #102d6e;
+}
+
+/* FOOTER */
+.footer {
+text-align: center;
+padding: 15px;
+background: #222;
+color: white;
+margin-top: 20px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+.main {
+flex-direction: column;
+}
+
+.nav a {
+display: inline-block;
+margin-top: 8px;
+}
+}

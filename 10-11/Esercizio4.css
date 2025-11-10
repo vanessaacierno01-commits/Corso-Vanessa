@@ -1,0 +1,42 @@
+body {
+
+  font-family: Arial, sans-serif;
+
+  padding: 20px;
+
+}
+
+.uno {
+
+  background-color: lightblue;
+
+  padding: 20px;
+
+  border: 2px solid blue;
+
+  margin-bottom: 20px;
+
+}
+
+.due {
+
+  background-color: lightgreen;
+
+  padding: 10px 15px;
+
+  border: 2px dashed green;
+
+  margin-bottom: 20px;
+
+}
+
+.tre { 
+background-color: lightcoral;
+
+  margin: 5px 10px 15px;
+
+  padding: 10px;
+
+  border: 2px solid red;
+
+}

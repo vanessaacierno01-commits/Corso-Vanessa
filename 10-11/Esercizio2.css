@@ -1,0 +1,29 @@
+h1{border-width:4px;
+       border-style:solid;
+       border-color:red;
+
+       margin-top: 30px;
+       margin-right: 10px;
+       margin-bottom: 20px;
+    }
+p{
+    border-width:2px;
+    border-style:dashed;
+    border-color:blue;
+
+    margin-top:10px;
+    margin-right:10px;
+    margin-bottom:40px;
+    margin-left:5px;
+}
+    
+ul{
+    border-width:3px;
+    border-style:dotted;
+    border-color:green;
+
+    margin-top:50px;
+    margin-right:10px;
+    margin-bottom:10px;
+    margin-left:10px;
+    }
