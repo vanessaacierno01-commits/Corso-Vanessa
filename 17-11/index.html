@@ -1,0 +1,46 @@
+ <!--Mini-Progetto: Calcolatrice Base -->
+<!DOCTYPE html>
+<html>
+  <head><title>Calcolatrice</title></head>
+  <body>
+    <input id="n1" type="number" placeholder="Numero 1" />
+    <input id="n2" type="number" placeholder="Numero 2" />
+    <button onclick="calcola()">Somma</button>
+    <button onclick="calcolaa()">moltiplicazione</button>
+    <button onclick="calcolad()">differenza</button>
+    <button onclick="calcoladiv()">divisione</button>
+    
+    <p id="risultato"></p>
+
+    <script>
+        function calcola() {
+  let n1 = Number(document.getElementById("n1").value);
+  let n2 = Number(document.getElementById("n2").value);
+  let somma = n1 + n2;
+	document.getElementById("risultato").textContent = "Risultato: " + somma;
+}
+let calcolaa = () => {
+    let n1 = Number(document.getElementById("n1").value);
+    let n2 = Number(document.getElementById("n2").value);
+    let moltiplicazione = n1 * n2;
+      document.getElementById("risultato").textContent = "Risultato: " + moltiplicazione;
+}
+let calcolad = () => {
+    let n1 = Number(document.getElementById("n1").value);
+    let n2 = Number(document.getElementById("n2").value);
+    let differenza = n1 - n2;
+      document.getElementById("risultato").textContent = "Risultato: " + differenza;
+
+}
+
+let calcoladiv = () => {
+    let n1 = Number(document.getElementById("n1").value);
+    let n2 = Number(document.getElementById("n2").value);
+    let divisione = n1 / n2;
+      document.getElementById("risultato").textContent = "Risultato: " + divisione;
+
+}
+    </script>
+  </body>
+</html>
+
