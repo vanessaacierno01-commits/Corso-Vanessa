@@ -1,0 +1,14 @@
+import React from 'react';
+
+export default function Input({ value, onChange, placeholder = '', onKeyDown, autoFocus = false }) {
+return (
+<input
+type="text"
+value={value}
+onChange={(e) => onChange?.(e.target.value)}
+placeholder={placeholder}
+onKeyDown={onKeyDown}
+autoFocus={autoFocus}
+/>
+);
+}
